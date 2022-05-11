@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+#main-header a:visited {
+  color:rgb(185, 131, 31);
+}
+  
+#main-header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#main-header li {
+  margin: 0 1rem;
+}
+
+#main-header nav a {
+  color: rgb(185, 131, 31);
+}
+
+#main-header {
+  height: 5rem;
+  background-color: rgb(29, 26, 24);
+  padding: 0 1%;
+
+}
+
+main h1 {
+  text-align: center;
+  font-size: 3rem;
+    color: rgb(185, 131, 31);
+
+}
+
+#latest-products {
+  display: flex;
+  justify-content: center;
+}
+
+
+.food-item {
+  background-color: rgb(228, 206, 182);
+  border-radius: 6px;
+}
+
+.food-item img {
+  height: 250px;
+}
+
+.food-item-content {
+  padding: 1rem;
+}
+
+.food-item h2 {
+  margin: 0 0 1rem 0;
+}
+
+.btn {
+  background-color: rgb(228, 157, 44);
+  color: white;
+  font-weight: 700;
+}
